@@ -6,5 +6,7 @@ public class App {
         Greeting     greeting = new Greeting();
         final String message  = greeting.getMessage();
         System.out.println(message);
+        final String specialMessage = greeting.getSpecialMessage();
+        System.out.println(specialMessage);
     }
 }
