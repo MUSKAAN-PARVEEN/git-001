@@ -8,5 +8,7 @@ public class App {
         System.out.println(message);
         final String anotherMessage = greeting.getAnotherMessage();
         System.out.println(anotherMessage);
+        final String specialMessage = greeting.getSpecialMessage();
+        System.out.println(specialMessage);
     }
 }

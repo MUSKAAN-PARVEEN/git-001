@@ -9,4 +9,8 @@ public class Greeting {
     public String getAnotherMessage() {
         return "Hello World Again";
     }
+
+    public String getSpecialMessage() {
+        return "Hello World Special";
+    }
 }
